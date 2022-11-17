@@ -1,0 +1,49 @@
+.menu-button {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 4px;
+  margin: auto;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+}
+
+.menu-button:hover {
+  background-color: lightgray;
+}
+
+.menu {
+  min-width: 140px;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 4px;
+  margin: auto;
+  display: inline-block;
+  user-select: none;
+}
+
+.menu-header {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.menu-header span {
+  display: block;
+}
+
+.menu-header span:first-child {
+  color: blue;
+  font-size: 20px;
+}
+
+.menu-item {
+  border-radius: 10px;
+  padding: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.menu-item:hover {
+  background-color: lightgray;
+}

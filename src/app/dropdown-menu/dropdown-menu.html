@@ -1,0 +1,18 @@
+<div class="menu-button" *ngIf="!isOpen">@username</div>
+
+<div class="menu" *ngIf="isOpen">
+  <div class="menu-header">
+    <span>User Name</span>
+    <span>@username</span>
+  </div>
+
+  <div class="menu-items">
+    <div class="menu-item">My Profile</div>
+    <div class="menu-item">My Photos</div>
+    <div class="menu-item">Privacy</div>
+    <div class="menu-item">Settings</div>
+    <div class="menu-item">Sign Out</div>
+  </div>
+</div>
+
+<div *ngIf="clicked">You clicked on {{clicked}}</div>
